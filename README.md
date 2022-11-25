@@ -1,7 +1,7 @@
 
 # Personal portfolio
-
-![VideoGif](public/portfolio.gif)
+<!-- 
+![VideoGif](public/portfolio.gif) -->
 
 ## Table of contents
 * [General info](#general-info)
@@ -27,6 +27,4 @@ $ npm start
 
 ## Let's get in touch
 
-- E-mail: dumraufp@gmail.com
-- Twitter: @pdumrauf
-- LinkedIn: https://www.linkedin.com/in/pauladumrauf/
+- E-mail: sadisc@hotmail.fr
