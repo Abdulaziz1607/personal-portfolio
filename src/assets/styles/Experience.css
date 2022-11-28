@@ -1,0 +1,85 @@
+.experience {
+    padding: 0 0;
+    background-color: black;
+    margin-bottom: -30px;
+
+  }
+
+.experience h2 {
+	font-size: 45px;
+	font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+}
+
+span.button-text {
+    align-items: center;
+    margin-bottom: 100px;
+    display : block;
+}
+
+
+  .experience button{
+    font-weight: 700;
+    color: #fff;
+    border-color: rgb(145, 14, 53);
+    border-width:5px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 18px 24px;
+    font-size: 30px;
+    background-color: transparent;
+    transition: 0.2s ease-in-out;
+    border-radius: 6px;
+  }
+
+  .experience button:hover{
+    color: white;
+    background-color:  #011633;
+  }
+
+  .experience .qima_img{
+
+    width: 100%;
+    position:relative;
+  
+  }
+  .experience .nvibe_img{
+
+    width: 60%;
+    position:relative;
+  
+  }
+  .experience .description{
+    width: 100%;
+    position:relative;
+    top: 35px;
+    }
+
+  .experience-slider {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    
+  }
+  
+  .experience-bx {
+    text-align: center;
+    padding: 60px 50px;
+  }
+  .experience .list {
+    text-align: left;
+  }
+  .experience p {
+    text-align: center;
+    color : white;
+  }
+  .experience .exp-img{
+
+    border-radius: 30px;
+    width: 70%;
+}
+

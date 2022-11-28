@@ -76,6 +76,7 @@ span.navbar-text {
   margin-left: 18px;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
+  border-radius: 6px;
 }
 
 
@@ -129,3 +130,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+

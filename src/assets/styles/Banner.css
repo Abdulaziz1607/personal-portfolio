@@ -3,7 +3,7 @@
   margin-top: 0;
   margin-bottom: -30px;
   padding: 260px 0 100px 0;
-  background-image: url('../img/banner-bg.png');
+  background-image: url('../img/olympe_background.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(76, 222, 139, 0.5) -5.91%, rgba(16, 65, 42, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, #011633 -5.91%, #850a0a 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -57,18 +57,18 @@
 }
 
 .banner img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   animation: updown 3s linear infinite;
 }
 @keyframes updown {
     0% {
-        transform: translateY(-20px);
+        transform: translateY(-40px);
     }
     50% {
-        transform: translateY(20px);
+        transform: translateY(0px);
     }
     100% {
-        transform: translateY(-20px);
+        transform: translateY(-40px);
     }
 }

@@ -4,8 +4,6 @@ import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router} from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
 import navIcon4 from '../assets/img/nav-icon4.svg';
 
 export const NavBar = () => {
@@ -45,8 +43,8 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/pauladumrauf/" target="_blank" rel='noreferrer'><img src={navIcon1} alt="" /></a>
-                <a href="https://github.com/pdumrauf" target="_blank" rel='noreferrer'><img src={navIcon4} alt="" /></a>
+                <a href="www.linkedin.com/in/abdulaziz-sadi-cherif-44a7a915b" target="_blank" rel='noreferrer'><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/Abdulaziz1607" target="_blank" rel='noreferrer'><img src={navIcon4} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button><span>Let's Connect</span></button>

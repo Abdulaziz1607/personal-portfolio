@@ -33,7 +33,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background: linear-gradient(90.21deg, #011633 -5.91%, #850a0a 111.58%);
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }

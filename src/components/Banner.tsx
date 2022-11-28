@@ -1,12 +1,12 @@
 import '../assets/styles/Banner.css'
 import { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img-svg.svg"
+import headerImg from "../assets/img/drag_.png"
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState<number>(0);
   const [isDeleting, setIsDeleting] = useState<boolean>(false);
-  const toRotate = ["Frontend Developer", "Web Designer"];
+  const toRotate = ["Data Scientist", "Front Developer"];
   const [text, setText] = useState<string>('');
   const [delta, setDelta] = useState<number>(300 - Math.random() * 100) 
   const period = 2000;
@@ -49,11 +49,11 @@ export const Banner = () => {
         <Row className="align-item-center">
           <Col xs={12} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
-              <h1>Hi, I'm Paula!</h1>
+              <h1>Hi, I'm Abdul!</h1>
               <span className="wrap">{text}_</span>
-              <p>I'm a Front-end developer looking for my first work experience in the world of web development. I'm curious and committed. Adaptable, proactive, and open to learning. Eager to grow professionally, and learn new skills. At present, I'm taking a course on NodeJS.</p>
+              <p>Very interested in new technologies and I enjoy to learn new things every day.</p>
           </Col>
-          <Col xl={5}>
+          <Col xl={5} >
             <img src={headerImg} alt="Header Img" />
           </Col>
         </Row>

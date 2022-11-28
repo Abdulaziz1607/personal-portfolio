@@ -1,7 +1,6 @@
 
 # Personal portfolio
-<!-- 
-![VideoGif](public/portfolio.gif) -->
+
 
 ## Table of contents
 * [General info](#general-info)
@@ -9,7 +8,7 @@
 * [Setup](#setup)
 
 ## General info
-This is my personal portfolio! I did it not only to introduce myself, but also to keep on practicing the technologies I know so far.
+This is my personal portfolio!
 	
 ## Technologies
 Project is created with:

@@ -1,34 +1,38 @@
 import '../assets/styles/Projects.css'
 import { Container, Row, Col } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
-import projImg1 from "../assets/img/projectImg1.png";
-import projImg2 from "../assets/img/projectImg2.png";
-import projImg3 from "../assets/img/projectImg3.png";
+import projImg1 from "../assets/img/snake.png";
+import projImg2 from "../assets/img/natixis.jpg";
+import projImg3 from "../assets/img/percolation.jpg";
 
 export const Projects = () => {
 
   const projects = [
   {
     id: 1,
-    title: "Shopet",
-    description: "Web design HTML/CSS for a pet shop",
+    title: "Snake.IA",
+    description: "Snake game and reinforcement learning",
+    description2: "#javascript #Q_learning",
     imgUrl: projImg1,
-    url: "https://pdumrauf.github.io/shopet/"
+    url: "",
   },
   {
     id: 2,
-    title: "SkinItUp",
-    description: "E-commerce about skincare using Vanilla JS / jQuery",
-    imgUrl: projImg2,
-    url: "https://pdumrauf.github.io/skin-It-Up/"
+    title: "Percolation",
+    description: "Study of a disease propagation",
+    description2: "#java #graph",
+    imgUrl: projImg3,
+    url: ""
   },
   {
     id: 3,
-    title: "Scrap",
-    description: "E-commerce about scrapbooking using React JS.",
-    imgUrl: projImg3,
-    url: "https://scrap-ecommerce.netlify.app/"
+    title: "Natixis Challenge",
+    description: "Deep Hedging for an Equinox",
+    description2: "#python #finance #keras",
+    imgUrl: projImg2,
+    url: "",
   },
+
 ];
 
   return (
@@ -46,8 +50,8 @@ export const Projects = () => {
                         key={project.id}
                         {...project}
                       />
-                    )
-                  })
+                    )}
+                  )
                 }
               </Row>
           </Col>
