@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import contactImg from "../assets/img/contact-img.svg"
 
 export const Contact = () => {
-  const [state, handleSubmit] = useForm("xqknvjgw");
+  const [state, handleSubmit] = useForm("ContactForm");
 
   if (state.succeeded) {
       return <p className="contact" id="connect">Thanks for message! I will answer as soon as possible.</p>;

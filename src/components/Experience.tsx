@@ -53,7 +53,7 @@ export const Experience = () => {
                 <button className = "qima" onClick={() => onUpdateActiveLink_qima()}>
                   <span>QIMA</span>
                 </button>
-                { activenbr_qima == true &&
+                { activenbr_qima === true &&
                 <Container>
                   <Row>
                   <Col>
@@ -65,7 +65,9 @@ export const Experience = () => {
                     </span>
                     </Col>
                     <Col>
+                    <a href={"https://www.qima.fr/"} target="_blank" rel="noreferrer">
                     <img className='qima_img' src={qima} alt="ImageQima"/>
+                    </a>
                     </Col>
                     <Col>  
                     <div className = 'list'>
@@ -95,7 +97,7 @@ export const Experience = () => {
                 <button className = "n_vibe"  onClick={() => onUpdateActiveLink_nvibe()}>
                   <span>N-VIBE</span>
                 </button>
-                { activenbr_nvibe == true && 
+                { activenbr_nvibe === true && 
                      <Container>
                      <Row>
                      <Col>
@@ -107,14 +109,16 @@ export const Experience = () => {
                        </span>
                        </Col>
                        <Col>
-                        <img className='nvibe_img' src={nvibe} alt="ImageNvibe"/>
+                       <a href={"https://n-vibe.com/"}>
+                       <img className='nvibe_img' src={nvibe} alt="ImageNvibe"/>
+                       </a>
                        </Col>
                        <Col>  
                        <p> Projects</p>
                        <ul className = 'list'>
                          <li>Review the literature on different approaches to "indoor
-localization" approaches and implement them.</li>
-                         <li>Work closely with the developer to deliver the model on
+localization" and implement them.</li>
+                         <li>Work closely with the developer to deliver the developed solution on
 the N-Vibe application.</li>
                          <li>First test of the solution with the Vision Impaired Foundation</li>
                        </ul>
