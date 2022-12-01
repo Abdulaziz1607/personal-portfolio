@@ -26,7 +26,7 @@ export const Contact = () => {
               <ValidationError prefix="Email" field="email" errors={state.errors} />
               <textarea id="message" name="message" placeholder="Message" required/>
               <ValidationError prefix="Message" field="message" errors={state.errors} />
-              <button type="submit" disabled={state.submitting}>Submit</button>
+              <button type="submit" disabled={state.submitting}>Submit - not working for now</button>
             </form>
           </Col>
         </Row>

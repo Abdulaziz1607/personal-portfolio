@@ -47,7 +47,7 @@ export const Experience = () => {
       <Container>
         <Row >
             <Col>
-              <h2>Experience</h2>
+              <h2>Experiences</h2>
               <span className = "button-text">
                 <Row>
                 <button className = "qima" onClick={() => onUpdateActiveLink_qima()}>
@@ -71,7 +71,7 @@ export const Experience = () => {
                     </Col>
                     <Col>  
                     <div className = 'list'>
-                      <p> Projects</p>
+                      <p>Missions as a Data Scientist</p>
                       <ul >
                         <li>Blurry detection: Improving the blurry image detection model
   to improve the fluidity of the process during quality control.</li>
@@ -114,7 +114,7 @@ export const Experience = () => {
                        </a>
                        </Col>
                        <Col>  
-                       <p> Projects</p>
+                       <p>Missions as a Data Scientist</p>
                        <ul className = 'list'>
                          <li>Review the literature on different approaches to "indoor
 localization" and implement them.</li>

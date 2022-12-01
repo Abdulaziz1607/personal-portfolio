@@ -14,7 +14,7 @@ export const Projects = () => {
     description: "Snake game and reinforcement learning",
     description2: "#javascript #Q_learning",
     imgUrl: projImg1,
-    url: "",
+    url: "https://snake-rl-limited-view.vercel.app/",
   },
   {
     id: 2,
