@@ -4,6 +4,7 @@
   padding: 260px 0 100px 0;
   background-image: url('../img/olympe_background.jpg');
   background-position: top center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .banner .tagline {
