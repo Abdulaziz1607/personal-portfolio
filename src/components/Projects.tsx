@@ -20,17 +20,17 @@ export const Projects = () => {
     id: 2,
     title: "Percolation",
     description: "Study of a disease propagation",
-    description2: "#java #graph",
+    description2: "#javascript #graph",
     imgUrl: projImg3,
-    url: ""
+    url: "https://percolation-red.vercel.app/"
   },
   {
     id: 3,
     title: "Natixis Challenge",
     description: "Deep Hedging for an Equinox",
-    description2: "#python #finance #keras",
+    description2: "#python #finance #deeplearning",
     imgUrl: projImg2,
-    url: "",
+    url: "https://github.com/Abdulaziz1607/NATIXIS-CHALLENGE-DEEP-HEDGING",
   },
 
 ];
