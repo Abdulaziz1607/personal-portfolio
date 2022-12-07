@@ -51,7 +51,7 @@ export const Banner = () => {
             <span className="tagline">Welcome to my Portfolio</span>
               <h1>Hi, I'm Abdul!</h1>
               <span className="wrap">{text}_</span>
-              <p>Very interested in new technologies and I enjoy to learn new things every day.</p>
+              <p>Keen interest in new technologies and eager to conitnually expand my skills.</p>
           </Col>
           <Col xl={5} >
             <img src={headerImg} alt="Header Img" />
