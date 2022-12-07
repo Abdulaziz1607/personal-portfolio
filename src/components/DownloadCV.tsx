@@ -1,6 +1,6 @@
 import '../assets/styles/Contact.css'
 import { Col, Row, Container } from "react-bootstrap";
-import CV from "../assets/files/CV_2022_ABDULAZIZ_SADI_CHERIF.pdf"
+import CV from "../assets/files/CV_2022_update.pdf"
 
 export const DownloadCV = () => {
 
@@ -13,7 +13,7 @@ export const DownloadCV = () => {
           </Col>
           <Col>
           <div className="cv-download-bx">
-            <a href={CV} download="CV_2022_ABDULAZIZ_SADI_CHERIF"><button>Download CV</button></a>
+            <a href={CV} download="CV_2022_update"><button>Download CV</button></a>
           </div></Col>
         </Row>
       </Container>
