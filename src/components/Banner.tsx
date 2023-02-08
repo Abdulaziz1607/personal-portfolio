@@ -53,9 +53,6 @@ export const Banner = () => {
               <span className="wrap">{text}_</span>
               <p>Keen interest in new technologies and eager to conitnually expand my skills.</p>
           </Col>
-          <Col xl={5} >
-            <img src={headerImg} alt="Header Img" />
-          </Col>
         </Row>
       </Container>
     </section>
